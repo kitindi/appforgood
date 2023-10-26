@@ -1,20 +1,46 @@
-.App {
-  padding: 20px 6rem;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+header {
+  width: 100%;
+  padding: 0 4rem;
+  display: flex;
+  height: 80vh;
+  background-color: #f5f4d7;
+}
+.member-sect {
+  width: 100%;
+  padding: 4rem;
+}
+.left-col {
+  flex: 1;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.right-col {
+  flex: 2;
+}
 .title {
   color: #333;
   font-size: 40px;
   font-weight: bold;
+  margin-bottom: 24px;
 }
-p {
+.left-col p {
   font-size: 16px;
   font-weight: normal;
+  margin-bottom: 24px;
+  line-height: 1.8;
 }
 .btn {
-  padding: 12px 24px;
-  background-color: brown;
-  color: white;
+  padding: 16px 32px;
+  background-color: #333;
+  color: #fff;
   border: none;
   font-size: 16px;
 }
